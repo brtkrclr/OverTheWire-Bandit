@@ -60,6 +60,7 @@ bandit2@bandit:~$ cat spaces\ in\ this\ filename
 UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 ```
 We have a file which inluced spaces, in order to cat it you can either type "cat" and press "TAB" button to complete the file or as you can see type like this.
+
 --------------------------------------------------------
 
 ## Bandit Level 3 → 4 Solution

@@ -1,5 +1,5 @@
 # OverTheWire
-Hi! In this paper you can find out the solutions of OverTheWire Game! Enjoy it and push your limits!
+Hi! In this paper you can find out the solutions of OverTheWire-Bandit Game! Enjoy it and push your limits!
 
 
 ## Bandit Level 0 → 1 Solution
@@ -349,21 +349,6 @@ You can either use online ROT13 decoder or as I did use **tr** command (translat
 
 ------------------------------------------------------------------
 
-## Bandit Level 12 → 13 Solution
-Let's open a terminal. The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 
-    Hex dump on Wikipedia
-
-
-```console
-bandit11@bandit:~$ ls
-data.txt
-bandit11@bandit:~$ cat data.txt 
-Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh
-bandit11@bandit:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
-
-```
-You can either use online ROT13 decoder or as I did use **tr** command (translate) to decode. ROT13 is a simple letter substitution cipher that replaces a letter with the 13th letter after it in the alphabet
 
 

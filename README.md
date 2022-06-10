@@ -139,7 +139,7 @@ bandit5@bandit:~/inhere/maybehere00$ ls
 -file1  -file2  -file3  spaces file1  spaces file2  spaces file3
 
 ```
-At firt I was thinking to check each directory and print each files. But it was saying **human-readable, 1033 bytes in size and not executable**. Hmm with these hint I thought I might use "find" command. I read "man" file at first to see which commands I can use. For the size I can use "find -size xx c" , for readable "find -readable", Let's try with these informations.
+At first I was thinking to check each directory and print each files. But it was saying **human-readable, 1033 bytes in size and not executable**. Hmm with these hint I thought I might use "find" command. I read "man" file at first to see which commands I can use. For the size I can use "find -size xx c" , for readable "find -readable", Let's try with these informations.
 
 ```console
 bandit5@bandit:~/inhere$ find -readable -size 1033c
@@ -462,7 +462,7 @@ The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
 
 ```
-Such a horrible part! In this chapter I used ***mkdir, file, tar, mv, cp, gzip, bzip2 *** comments.
+Such a horrible part! In this chapter I used ***mkdir, file, tar, mv, cp, gzip, bzip2*** comments.
 
 ----------------------------------------------------------------------
 
